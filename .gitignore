@@ -1,11 +1,9 @@
-/WebApplication/WebApplication/bin/*
 /WebApplication/WebApplication/obj/*
 /WebApplication/WebApplication/Project.csproj.user
 /.vs/*
 /WebApplication/WebApplication/App_Data/Logs/*
 /WebApplication/WebApplication/App_Data/TEMP/*
-/WebApplication/WebApplication/Web.config
-/WebApplication/WebApplication/App_Data/umbraco.config
+
 /WebApplication/WebApplication/Umbraco
 
 
@@ -105,7 +103,6 @@ ipch/
 *.ncb
 *.opendb
 *.opensdf
-*.sdf
 *.cachefile
 *.VC.db
 *.VC.VC.opendb
@@ -368,11 +365,4 @@ ASALocalRun/
 
 # Ignore the Models Builder models out of date flag
 **/App_Data/Models/ood.flag
-/packages/*
-/WebApplication/WebApplication/Umbraco/*
-/WebApplication/WebApplication/Umbraco_Client/*
-/WebApplication/WebApplication/config/*
-/WebApplication/WebApplication/App_Data/Models/all.dll.path
-/WebApplication/WebApplication/App_Data/Models/all.generated.cs
-/WebApplication/WebApplication/App_Data/Models/models.generated.cs
-/WebApplication/WebApplication/App_Data/Models/models.hash
+
