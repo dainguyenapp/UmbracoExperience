@@ -1,0 +1,35 @@
+﻿@using WebApplication
+@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+    Layout = "events.cshtml";
+    var guestId = Request["guestId"];
+    var checkGuest = UmbracoContext.CheckGuest(Model.Key.ToString(), guestId);
+    if (checkGuest == false)
+    {
+        TempData["Error"] = "Thông tin tham gia sự kiện không hôp lệ";
+        Response.Redirect(Model.Parent.Url);
+    }
+
+    var comments = UmbracoContext.Comments(Model.Key.ToString());
+}
+
+<h2>Event</h2>
+<p>CheckGuest : @checkGuest</p>
+
+<ul>
+    @foreach (var comment in comments)
+    {
+        <li>
+            @comment.GuestName : @comment.Message
+            <ul>
+                @foreach (var rep in comment.Reply)
+                {
+                <li>
+                    @rep.GuestName : @rep.Message
+                </li>
+                }
+            </ul>
+        </li>
+    }
+</ul>
+

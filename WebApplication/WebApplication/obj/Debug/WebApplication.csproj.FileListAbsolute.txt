@@ -230,3 +230,4 @@ D:\Projects\Umbraco\UmbracoExperience\WebApplication\WebApplication\bin\ru\Micro
 D:\Projects\Umbraco\UmbracoExperience\WebApplication\WebApplication\bin\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Projects\Umbraco\UmbracoExperience\WebApplication\WebApplication\bin\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Projects\Umbraco\UmbracoExperience\WebApplication\WebApplication\bin\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Umbraco\UmbracoExperience\WebApplication\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
